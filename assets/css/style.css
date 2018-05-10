@@ -46,7 +46,7 @@ h1 {
 p {
   margin: 10px;
   font-weight: bold;
-  color: red;
+  color: rgb(255, 60, 60);
   font-size: 20px;
 }
 
@@ -55,16 +55,18 @@ h2, h4 {
   font-weight: bold;
 }
 
-.wrapper {
+.jumbotron {
   margin: 10px auto;
-  background-color: rgba(255, 255, 255, 0.7);
-  border: 2px solid #403fd3;
-  height: 500px;
-  width: 60%;
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 4px solid #0c6edd;
+  height: 650px;
+  width: 60%;
+  
 }
+
 
 .btn {
   position: relative;
-  bottom: -150px;
+  bottom: -130px;
 }
