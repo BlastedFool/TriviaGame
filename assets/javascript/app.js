@@ -6,49 +6,49 @@ $(document).ready(function () {
             question: "What year was the Atari 2600 released?", 
             choice: ["1980", "1975", "1977", "1978"],
             answer: 2,
-            photo: "assets/images/pupusas.jpg"
+            photo: "assets/images/atari2600.jpg"
          },
          {
              question: "What year was the NES released?", 
             choice: ["1980", "1981", "1982", "1983"],
             answer: 3,
-            photo: "assets/images/mtdew.gif"
+            photo: "assets/images/NES.jpg"
          }, 
          {
              question: "What is Nintendo's most popular selling console", 
             choice: ["Nintendo DS", "Nintendo Switch", "Nintendo 3Ds", "Nintendo Wii" ],
             answer: 0,
-            photo: "assets/images/coffee.gif"
+            photo: "assets/images/NDS.jpg"
         }, 
         {
-            question: "Which is not an ingredient in a Harvey Wallbanger cocktail?", 
-            choice: ["Orange Juice", "Vodka", "Sour Mix", "Galliano" ],
+            question: "Who is Mario's arch nemesis ?", 
+            choice: ["Luigi", "Wario", "Bowser", "Boo"],
             answer: 2,
-            photo: "assets/images/harvey.jpg"
+            photo: "assets/images/bowser.jpg"
         }, 
         {
-            question: "How many items are there in a Bakers' Dozen?", 
-            choice: ["12", "6", "24", "13" ],
+            question: "What is the best selling videogame of all time?", 
+            choice: ["Grand Theft Auto", "Wii Sports", "Minecraft", "Tetris" ],
             answer: 3,
-            photo: "assets/images/dozen.jpg"
+            photo: "assets/images/teris.jpg"
         }, 
         {
-            question: "What is the most widely eaten fish in the world?", 
-            choice: ["Tilapia", "Herring", "Sardine", "Tuna" ],
+            question: "In the first generation of Pokemon, how many total Pokémon are there?", 
+            choice: ["100", "150", "151", "145" ],
+            answer: 2,
+            photo: "assets/images/ash_mew.gif"
+        }, 
+        {
+            question: "What is Link's Horses Name", 
+            choice: ["Zelda", "Epona", "Pony", "Luna" ],
             answer: 1,
-            photo: "assets/images/herring.jpg"
+            photo: "assets/images/epona.png"
         }, 
         {
-            question: "Which fruit does not ripen once it has been picked?", 
-            choice: ["Banana", "Lemon", "Mango", "Apple" ],
-            answer: 1,
-            photo: "assets/images/lemon.gif"
-        }, 
-        {
-            question: "Which fruit contains the most protein per 100 calories?", 
-            choice: ["Guava", "Avocado", "Banana", "Blackberries" ],
+            question: "Which company develops the Mega man series?", 
+            choice: ["Capcom", "Konami", "Square Enix", "Blizzard" ],
             answer: 0,
-            photo: "assets/images/guava.gif"
+            photo: "assets/images/megaman.jpg"
         }];
     
         //declaring global counters and variables
@@ -68,4 +68,4 @@ $(document).ready(function () {
     
     
     
-    
+   
